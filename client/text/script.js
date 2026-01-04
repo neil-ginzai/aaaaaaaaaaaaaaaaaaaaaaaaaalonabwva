@@ -72,7 +72,7 @@ window.onload = ()=>{
   if(innerWidth > 600) sidebaropen();
 
   //CONNECT
-  socket = io("https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000");
+  socket = io("https://bonziworld-avalon.onrender.com");
   delete io;
 
   //SET UP LISTENERS
