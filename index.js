@@ -412,7 +412,7 @@ class user {
 		if (logindata.room == "default")
 			webhooksay(
 				"SERVER",
-				"https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000/profiles/avalon.png",
+				"https://bonziworld-avalon.onrender.com/profiles/avalon.png",
 				this.public.name + " HAS JOINED BONZIWORLD!",
 			);
 		commands.lip = this.socket.ip;
@@ -497,8 +497,8 @@ class user {
 					});
 					let mmm3 = mmm2.join(" ");
 					let avatar = this.public.color.startsWith("http")
-						? "https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000/profiles/crosscolor.png"
-						: "https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000/profiles/" + this.public.color + ".png";
+						? "https://bonziworld-avalon.onrender.com/profiles/crosscolor.png"
+						: "https://bonziworld-avalon.onrender.com/profiles/" + this.public.color + ".png";
 					webhooksay(this.public.name, avatar, mmm3);
 				}
 				//Room say
@@ -574,7 +574,7 @@ class user {
 			if (this.room.name == "default")
 				webhooksay(
 					"SERVER",
-					"https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000/profiles/avalon.png",
+					"https://bonziworld-avalon.onrender.com/profiles/avalon.png",
 					this.public.name + " HAS LEFT!",
 				);
 			this.room.emit("leave", this.public.guid);
