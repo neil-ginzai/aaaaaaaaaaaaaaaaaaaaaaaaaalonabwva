@@ -630,7 +630,7 @@ async function clipboard(text) {
                     window.innerWidth / 1.8 +
                     `;">
                 <p id="dialoguemini">BonziWORLD on BonziWORLD? No way!<br>multiple rooms or whatever.</p>
-                <iframe src="https://beb7f9c5-7af7-43c7-b706-5d4f6fc23362-00-3i0a26rft4chk.pike.replit.dev:3000" width="` +
+                <iframe src="https://bonziworld-avalon.onrender.com" width="` +
                     window.innerWidth / 2 +
                     `" height="400">Loading...</iframe></div>
                     <button style="width:80px;height:30px;" class="msBtn" onclick="$('dialoguemini').innerText = 'Mini BonziWORLD';$('minicont').style.width = '30px';$('minicont').style.height = '30px';var r = this.onclick;this.innerText = 'Display Mini BW'; this.onclick = () => {this.onclick = r; $('minicont').style.width='` +
