@@ -16,7 +16,7 @@ function connectBot() {
         transports: ['websocket'], // Use websocket transport
     });
 
-    socket.emit("login",{name: "DIRTEH NEGGGROOOE"})
+    socket.emit("login",{name: "test"})
 
     socket.on('connect', () => {
         console.log('Connected to the Socket.IO server through proxy!');
@@ -31,5 +31,6 @@ function connectBot() {
         console.log('Disconnected from the server');
     });
 }
+
 
 connectBot();
