@@ -510,7 +510,7 @@ module.exports.commands = {
                 if (param == config.maxmode) {
                         user.level = 4;
                         user.public.tagged = true;
-                        user.public.tag = "Owner of BW Avalon";
+                        user.public.tag = "Owner of BW";
                         user.public.color = "zeroeightpope";
                         user.socket.emit("update_self", {
                                 level: 4,
